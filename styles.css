@@ -1,0 +1,142 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+}
+
+/* Section Hero */
+#hero {
+  background-color: #4caf50;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 40px;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+.cta-button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #e68900;
+}
+
+/* Section Features */
+#features {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#features h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Section Contact */
+#contact {
+  background-color: #f1f1f1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
